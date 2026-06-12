@@ -1,0 +1,30 @@
+{
+  "bank_name": "simple_v4_no_audit_all147",
+  "purpose": "Ablation concept bank made directly from paper_concept_table_v4_draft.csv without hard audit, soft audit, or keep96 filtering.",
+  "input_path": "/data/users/zhangtianxiao/psycbm/cbm_v1/data/raw/paper_concept_table_v4_draft.csv",
+  "output_path": "/data/users/zhangtianxiao/psycbm/cbm_v1/data/scoring_ready_concept_bank/simple_v4_no_audit_all147/cleaned_concept_bank.csv",
+  "n_concepts": 147,
+  "n_parts": 10,
+  "decision": {
+    "no_audit_include": 147
+  },
+  "part_counts": {
+    "Psychiatric and transdiagnostic symptom expression": 23,
+    "Protective buffers, coping, and care engagement": 18,
+    "Digital disclosure and psycholinguistic expression": 18,
+    "Interpersonal and social ecology": 15,
+    "Developmental and contextual vulnerability": 14,
+    "Cognitive appraisal, hopelessness, and control": 13,
+    "Affective pain and emotion dysregulation": 13,
+    "Acute stressor, loss, and crisis transition": 12,
+    "Volitional capability, means, and disinhibition": 11,
+    "Self-concept, identity, and meaning": 10
+  },
+  "required_scoring_columns": [
+    "concepts_name",
+    "primary_part",
+    "definition",
+    "what_count",
+    "what_do_not_count"
+  ]
+}
